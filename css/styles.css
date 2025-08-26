@@ -7,11 +7,14 @@
   color: #ffffff;
   background-color: #404bbf;
 }
-.contacts {
+.contacts a {
   color: #434455;
   text-decoration: none;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.contacts:hover,
+.contacts a:hover,
 .contacts:focus {
   color: #404bbf;
   text-decoration: none;
@@ -28,10 +31,23 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 h1 {
   weight: Bold;
   size: 56px;
   letter-spacing: 2%;
   line-height: 60px;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-span {
+  color: #2e2f42;
 }
