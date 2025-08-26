@@ -7,21 +7,28 @@
   color: #ffffff;
   background-color: #404bbf;
 }
-.contacts a {
+.contacts {
+  font-style: normal;
+}
+.contacts .cont-link {
   color: #434455;
   text-decoration: none;
-  font-style: normal;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts a:hover,
-.contacts:focus {
+.contacts .cont-link:hover,
+.contacts .cont-link:focus {
   color: #404bbf;
   text-decoration: none;
 }
 .navigation {
   color: #2e2f42;
   text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
 }
 .navigation:hover,
 .navigation:focus {
