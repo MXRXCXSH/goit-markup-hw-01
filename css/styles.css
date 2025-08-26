@@ -1,0 +1,37 @@
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.button:hover,
+:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.contacts {
+  color: #434455;
+  text-decoration: none;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+  text-decoration: none;
+}
+.navigation {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.navigation:hover,
+.navigation:focus {
+  color: #404bbf;
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+h1 {
+  weight: Bold;
+  size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
