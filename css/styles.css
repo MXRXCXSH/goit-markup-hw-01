@@ -5,7 +5,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04m;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .button:hover,
@@ -67,6 +67,9 @@ h1 {
 .main-section {
   background-color: #2e2f42;
 }
+.team-section {
+  background-color: #f4f4fd;
+}
 .main-header {
   font-size: 56px;
   line-height: 1.07;
@@ -74,7 +77,7 @@ h1 {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.team-header {
+.team-members {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -102,6 +105,19 @@ h1 {
   color: #2e2f42;
 }
 .portfolio-offers-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.features-advantages {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.features-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
